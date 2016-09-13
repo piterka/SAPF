@@ -1,0 +1,23 @@
+{
+    "name": "blazingcode/SAPF",
+    "type": "library",
+    "keywords": [],
+    "autoload": {
+        "psr-4": {
+            "SAPF\\": ""
+        }
+    },
+    "description": "Super Awesome PHP Framework",
+    "authors": [
+        {
+            "name": "Piotr Kawęcki",
+            "email": "p.kawecki@blazingcode.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/http-foundation": "v3.0.3",
+        "phpmailer/phpmailer": "~5.2",
+        "psr/cache": "^1.0"
+    }
+}
